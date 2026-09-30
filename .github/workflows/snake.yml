@@ -16,13 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake animation
+      - name: Generate green snake animation
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?color_snake=%2339ff88&color_dots=%230d1117_%230d1117_%230d1117_%230d1117_%230d1117
-            dist/github-snake-dark.svg?color_snake=%2339ff88&color_dots=%230d1117_%230d1117_%230d1117_%230d1117_%230d1117
+            dist/github-snake.svg?color_snake=%23ffffff&color_dots=%2339ff88_%2339ff88_%2339ff88_%2339ff88_%2339ff88
+            dist/github-snake-dark.svg?color_snake=%23ffffff&color_dots=%2339ff88_%2339ff88_%2339ff88_%2339ff88_%2339ff88
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -32,4 +32,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-          commit_message: "Make contribution snake fully green"
+          commit_message: "Make contribution snake fully green and animated"
