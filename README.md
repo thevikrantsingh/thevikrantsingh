@@ -197,8 +197,6 @@ I'm always interested in discussing:
 ## 🐍 GitHub Contribution Snake
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/thevikrantsingh/thevikrantsingh/output/github-snake.svg"
-     alt="Vikrant's GitHub contribution snake animation"
-     width="880" /></p>
+<img src="https://raw.githubusercontent.com/vikantdbg/vikantdbg/output/github-snake.svg" alt="Vikrant's GitHub contribution snake animation" width="880" /></p>
 
 ---
